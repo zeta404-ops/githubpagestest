@@ -1,0 +1,57 @@
+.row {
+  box-sizing: border-box;
+  display: flex;
+  font-family: Papyrus;
+  color: white;
+  align-content: center;
+}
+h1{
+  text-align:center;
+  color:black;
+  font-family: verdana;
+}
+ h2{
+  float:right;
+  margin: 10px; 
+  color: red;
+  font-family: Verdana;
+}
+
+.box1{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+.box2{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+.box3{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+@media only screen and (max-width: 768px)
+{
+  * {
+    font-family: Papyrus;
+    color: white;
+}
+
+.box1,.box2,.box3{
+width: 120px;
+height: auto;
+  background: black;
+  border: solid 2px red;
+}
+}
